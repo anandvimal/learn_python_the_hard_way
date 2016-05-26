@@ -221,3 +221,130 @@ while i<6:
 # use if statements and print for debugging.
 # debugger can be complex for simple debugging tasts.
 # As you get a load of info which you might not need all the time.
+
+# ex37
+# Keywords
+![keywords](./keywords.png)
+# datatypes
+![datatypes](./datatypes.png)
+# String Escape Sequences
+![string escape sequences](./stringescapseseq.png)
+# String Formats
+![stringformats](./stringformats.png)
+
+# Operators:
+```
++	Addition	2 + 4 == 6
+-	Subtraction	2 - 4 == -2
+*	Multiplication	2 * 4 == 8
+**	Power of	2 ** 4 == 16
+/	Division	2 / 4.0 == 0.5
+//	Floor division	2 // 4.0 == 0.0
+%	String interpolate or modulus	2 % 4 == 2
+<	Less than	4 < 4 == False
+>	Greater than	4 > 4 == False
+<=	Less than equal	4 <= 4 == True
+>=	Greater than equal	4 >= 4 == True
+==	Equal	4 == 5 == False
+!=	Not equal	4 != 5 == True
+<>	Not equal	4 <> 5 == True
+( )	Parenthesis	len('hi') == 2
+[ ]	List brackets	[1,3,4]
+{ }	Dict curly braces	{'x': 5, 'y': 10}
+@	At (decorators)	@classmethod
+,	Comma	range(0, 10)
+:	Colon	def X():
+.	Dot	self.x = 10
+=	Assign equal	x = 10
+;	semi-colon	print "hi"; print "there"
++=	Add and assign	x = 1; x += 2
+-=	Subtract and assign	x = 1; x -= 2
+*=	Multiply and assign	x = 1; x *= 2
+/=	Divide and assign	x = 1; x /= 2
+//=	Floor divide and assign	x = 1; x //= 2
+%=	Modulus assign	x = 1; x %= 2
+**=	Power assign	x = 1; x **= 2
+```
+
+# ex38
+```
+len("a") gives 1
+
+arr = [1]
+len( arr ) gives 1
+
+arr=[1,2,3,4,5,6]
+
+arr[0] gives 1
+arr[1] gives second element 2
+
+arr[-1] gives the last element ie 6
+arr[-2] gives second last element ie 5
+
+arr=['a','b','c','d','e','f','g','h']
+print " ".join(arr)
+
+print " ".join(arr[2:3])
+// gives c. it will take from 2 and onwards everything before 3
+
+*if arr is list of strings then it can be joined with join.
+```
+
+# ex 39
+Dictionaries
+```
+stuff = {'name': 'Zed', 'age': 39, 'height': 6 * 12 + 2}
+
+# create a mapping of state to abbreviation
+states = {
+    'Oregon': 'OR',
+    'Florida': 'FL',
+    'California': 'CA',
+    'New York': 'NY',
+    'Michigan': 'MI'
+}
+
+# create a basic set of states and some cities in them
+cities = {
+    'CA': 'San Francisco',
+    'MI': 'Detroit',
+    'FL': 'Jacksonville'
+}
+
+# add some more cities
+cities['NY'] = 'New York'
+cities['OR'] = 'Portland'
+
+for state, abbrev in states.items():
+    print "%s is abbreviated %s" % (state, abbrev)
+
+# print every city in state
+print '-' * 10
+for abbrev, city in cities.items():
+    print "%s has the city %s" % (abbrev, city)
+```
+
+.items() on a dictionary
+```
+dict.items()
+This method returns a list of tuple pairs.
+
+dict = {'Name': 'Zara', 'Age': 7}
+
+print "Value : %s" %  dict.items()
+When we run above program, it produces following result −
+
+Value : [('Age', 7), ('Name', 'Zara')]
+```
+
+need more on this page: http://learnpythonthehardway.org/book/ex39.html
+can study how dictionaries are made.
+
+---
+
+# ex41
+
+http://learnpythonthehardway.org/book/ex41.html
+make sure to do the reading test later on this page.
+
+# ex42
